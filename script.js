@@ -1,7 +1,7 @@
 const n=30;
 const array = [];
 
-init();
+reset();
 let audioCtx = null;
 function playNote(freq){
     if(audioCtx == null){
@@ -26,7 +26,7 @@ function playNote(freq){
 
 
 
-function init(){
+function reset(){
     for(let i=0 ; i<n ; i++){
         array[i] = Math.random();
     }

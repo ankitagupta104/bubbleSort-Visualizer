@@ -9,6 +9,7 @@ body{
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: #c5fffd;
 }
 
 h1{
@@ -19,7 +20,7 @@ h1{
 }
 .bar{
   width: 30px;
-  background-color: #2b5657;
+  background-color: #21295c;
   border: 3px solid rgb(116, 115, 115) ;
   margin: 1px;
 }
